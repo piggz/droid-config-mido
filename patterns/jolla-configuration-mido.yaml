@@ -15,7 +15,7 @@ Requires:
 - sailfish-content-graphics-z@ICON_RES@
 
 # For multi-SIM devices
-#- jolla-settings-networking-multisim
+- jolla-settings-networking-multisim
 
 # Introduced starting Sailfish OS 2.0.4.x:
 # 3rd party accounts like Twitter, VK, cloud services, etc
