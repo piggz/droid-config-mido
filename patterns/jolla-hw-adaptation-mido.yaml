@@ -16,6 +16,9 @@ Requires:
 - droid-hal-version-mido
 - droid-hal-mido-detritus
 
+#Audiofligher glue
+- pulseaudio-modules-droid-glue
+
 # Hybris packages
 - libhybris-libEGL
 - libhybris-libGLESv2
@@ -47,7 +50,7 @@ Requires:
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-#- gstreamer1.0-droid
+- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -76,8 +79,8 @@ Requires:
 - geoclue-provider-hybris
 
 # For FM radio on some QCOM devices
-#- qt5-qtmultimedia-plugin-mediaservice-irisradio
-#- jolla-mediaplayer-radio
+- qt5-qtmultimedia-plugin-mediaservice-irisradio
+- jolla-mediaplayer-radio
 
 Summary: Jolla HW Adaptation mido
 
