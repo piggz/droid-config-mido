@@ -1,0 +1,2 @@
+
+KERNEL=="radio[0-9]*", OWNER="audio", GROUP="audio" 

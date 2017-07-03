@@ -1,0 +1,13 @@
+[Unit]
+Description=Enable FM Radio
+DefaultDependencies=false
+After=droid-hcismd-up.service
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/modprobe radio-iris-transport
+RemainAfterExit=yes
+
+[Install]
+WantedBy=bluetooth.service
+
