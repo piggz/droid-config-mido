@@ -1,6 +1,3 @@
 [submodule "droid-configs-device"]
 	path = droid-configs-device
 	url = https://github.com/mer-hybris/droid-hal-configs
-[submodule "droid-hal-version"]
-	path = droid-hal-version
-	url = https://github.com/mer-hybris/droid-hal-version
