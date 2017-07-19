@@ -1,0 +1,9 @@
+[Unit]
+Description=Link Android folder to home
+After=local-fs.target
+Conflicts=rescue.target actdead.target factory-test.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/droid/android-links.sh
