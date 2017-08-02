@@ -82,5 +82,8 @@ Requires:
 - qt5-qtmultimedia-plugin-mediaservice-irisradio
 - jolla-mediaplayer-radio
 
+# For torch
+- jolla-settings-system-flashlight
+
 Summary: Jolla HW Adaptation mido
 
