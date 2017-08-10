@@ -5,7 +5,7 @@ After=droid-hcismd-up.service
 
 [Service]
 Type=oneshot
-ExecStart=/sbin/modprobe radio-iris-transport
+ExecStart=/usr/bin/droid/droid-fm-up.sh
 RemainAfterExit=yes
 
 [Install]
