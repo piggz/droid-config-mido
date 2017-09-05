@@ -85,5 +85,8 @@ Requires:
 # For torch
 - jolla-settings-system-flashlight
 
+# Additional packages
+- camera-settings-plugin
+
 Summary: Jolla HW Adaptation mido
 
