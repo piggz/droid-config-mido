@@ -28,5 +28,8 @@ Requires:
 # needs some configuration to get all features working
 - csd
 
+#Add jolla-store
+- jolla-store
+
 Summary: Jolla Configuration mido
 
