@@ -87,6 +87,7 @@ Requires:
 
 # Additional packages
 - camera-settings-plugin
+- sd-utils
 
 Summary: Jolla HW Adaptation mido
 
