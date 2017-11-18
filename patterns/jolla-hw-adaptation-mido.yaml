@@ -12,7 +12,7 @@ Requires:
 - droid-config-mido-policy-settings
 - droid-config-mido-preinit-plugin
 - droid-config-mido-flashing
-- droid-config-mido-bluez4
+- droid-config-mido-bluez5
 - droid-hal-version-mido
 - droid-hal-mido-detritus
 
