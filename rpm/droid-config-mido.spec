@@ -15,6 +15,6 @@ Provides: ofono-configs
 # Community HW adaptations need this
 %define community_adaptation 1
 
-%define ofono_enable_plugins hfp_bluez5,hfp_ag_bluez5
+%define ofono_enable_plugins hfp_ag_bluez5
 
 %include droid-configs-device/droid-configs.inc
