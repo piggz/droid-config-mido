@@ -5,6 +5,7 @@ After=local-fs.target
 
 [Service]
 Type=oneshot
+ExecStartPre=/sbin/modprobe hci_smd
 ExecStart=/bin/sh /usr/bin/droid/droid-hcismd-up.sh
 RemainAfterExit=yes
 TimeoutStartSec=60
