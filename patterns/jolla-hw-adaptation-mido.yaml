@@ -51,8 +51,8 @@ Requires:
 - nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
 - gstreamer1.0-droid
-- gstreamer1.0-omx
-- gstreamer1.0-libav
+#- gstreamer1.0-omx
+#- gstreamer1.0-libav
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
