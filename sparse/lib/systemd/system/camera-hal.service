@@ -1,0 +1,13 @@
+[Unit]
+Description=Set camera HAL
+Conflicts=shutdown.target actdead.target
+
+[Service]
+Type=simple
+RemainAfterExit=yes
+ExecStart=setprop persist.camera.HAL3.enabled 0
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
